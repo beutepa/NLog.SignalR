@@ -9,8 +9,8 @@ namespace NLog.SignalR.Sample.Command
         public static LogEventInfo[] Messages =
         {
             new LogEventInfo{Level = LogLevel.Warn, Message = "Warning - you might not want to do that..."},
-            new LogEventInfo{Level = LogLevel.Fatal, Message = "The sky is falling."},
-            new LogEventInfo{Level = LogLevel.Debug, Message = "You have entered the static void Main(string[] args)."}
+            new LogEventInfo{Level = LogLevel.Fatal, Message = "Fatal: The sky is falling."},
+            new LogEventInfo{Level = LogLevel.Debug, Message = "Debug: You have entered the static void Main(string[] args)."}
         };
 
         static void Main(string[] args)
